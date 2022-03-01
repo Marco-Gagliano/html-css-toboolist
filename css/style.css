@@ -4,4 +4,20 @@
   margin: 0;
   padding: 0;
 }
-  
+
+
+/*HEADER*/
+
+header {
+  height: 250px;
+  width: 280px;
+  background-color: #ffffff;
+  background-image: url(../img/Logo.png);
+  background-repeat: no-repeat;
+}
+
+/*MAIN*/
+
+.content {
+  font-size: 22px;
+}
