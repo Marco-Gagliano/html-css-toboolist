@@ -8,21 +8,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(#7a7a7a);
-}
-
-.symbol-1 {
-  padding: 5px;
-  color: rgb(9, 204, 51);;
-  border: 1px solid rgb(9, 204, 51);
-  border-radius: 50%;
-}
-
-.symbol-2 {
-  padding: 5px;
-  color: rgb(241, 1, 1);
-  border: 1px solid rgb(241, 1, 1);
-  border-radius: 50%;
+  background-color: #bbbbbb;
 }
 
 ul {
@@ -33,11 +19,12 @@ h3::before {
   content: '\25BE';
 }
 
+
 /*HEADER*/
 
 header {
   background-color: white;
-  padding: 10px 20px
+  padding: 10px 50px
 }
 
 .header-logo {
@@ -54,16 +41,36 @@ header {
 /*MAIN*/
 
 main {
-  padding-left: 0px;
+  padding-top: 100px;
 }
 
+.container {
+  width: 65%;
+  min-width: 600px;
+  padding: 10px;
+  margin: auto;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.main-task {
+  padding: 15px 100px;
+  
+}
+
+
+/*MAIN - BUTTON TASK*/
+
+.button-task {
+  padding: 10px 100px;
+  border-bottom: 1px solid #7a7a7a
+}
 
 .tasks {
   padding: 5px 10px;
   border-radius: 5px;
   border: none;
 }
-
 
 .task1 {
   color: white;
@@ -77,35 +84,35 @@ main {
   border: 1px solid grey;
 }
 
-
 /*MAIN - CHECK/DENIED*/
 
-.circle {
-  border: 1px solid;
-  border-radius: 50%;
-  padding: 2px;
-
-}
 .circle.done::before {
   content: '\2714';
   color: green;
-  border-color: green;
+  border: 1px solid green;
+  border-radius: 50%;
+  padding: 2px;
 }
 
 .circle.undone::before {
   content: '\2718';
   color: red;
-  border-color: green;
+  border: 1px solid red;
+  border-radius: 50%;
+  padding: 2px;
 }
 
 
 /*MAIN - COLOR TAG*/
 
 .tag {
+  display: inline-block;
+  width: auto;
   padding: 3px 5px;
+  box-sizing: border-box;
+  border: 0px solid lightgrey;
   color: white;
   border-radius: 10px;
-  display: inline-block;
 }
 
 .editorial {
