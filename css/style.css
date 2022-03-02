@@ -8,8 +8,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(206, 206, 206);
-
+  background-color: rgb(#818181);
 }
 
 .symbol-1 {
@@ -29,47 +28,45 @@ body {
 
 /*HEADER*/
 
-h1 {
-  padding-left: 100px;
+header {
+  background-color: white;
+  padding: 10px 20px
+}
+
+.header-logo {
+  vertical-align: middle;
+}
+
+.header-text {
+  font-size: 30px;
+  font-weight: 900;
+  vertical-align: middle;
 }
 
 
 /*MAIN*/
 
-main {
-  background-color: white;
+
+.tasks {
+  padding: 5px 10px;
   border-radius: 5px;
-  margin: 50px;
-  padding-left: 32%;
+  border: none;
 }
 
-.content-1 {}
 
-.task-1 {
-  background-color: rgb(0, 119, 255);
+.task1 {
   color: white;
-  border-radius: 5px;
-  padding: 5px;
+  background-color: rgb(0, 119, 255);
+  border: 1px solid rgb(0, 119, 255);
   
 }
 
-.task-2 {
-  background-color: white;
+.task2 {
   color: grey;
+  background-color: white;
   border: 1px solid grey;
-  border-radius: 5px;
-  padding: 5px;
-
 }
 
-
-.container-1 {
-
-}
-
-.container-2 {
-
-}
 
 .background-1 {
   background-color: rgb(0, 119, 255);
